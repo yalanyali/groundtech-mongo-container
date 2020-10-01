@@ -14,7 +14,6 @@ RUN cd /tmp && \
 
 ENTRYPOINT ["/opt/run-backups"]
 
-
 VOLUME ["/backups"]
 
 ENV HOST=localhost \
